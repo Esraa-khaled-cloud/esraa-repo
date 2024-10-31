@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image/x-icon" href="/imgs/image.png">
+</head>
+<body style="background-color: rgb(153, 204, 240);">
+    <h2>Sign Up</h2>
+    <form action="login.html">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" value="" name="gender">
+            <label for="">Male</label>
+            <input type="radio" id="female" value="" name="gender">
+            <label for="">Female</label>
+        </fieldset>
+        <br>
+    <label for="your bio"> Your Bio </label>
+        <textarea name="content_of_article" id="" placeholder="write about yourself" cols="50" rows="8" maxlength="50"
+            minlength="2"></textarea>
+            <button onclick="skipBio()">Skip</button>
+         <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="submit">Reset</button>
+    </form>
+    <p>Already have an account? <a href="Login.html">Login here</a></p>
+</body>
+</html>
+
